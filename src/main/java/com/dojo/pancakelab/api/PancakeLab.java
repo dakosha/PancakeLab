@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface PancakeLab {
+
     String createOrder(String building, String roomNumber);
 
     String addPancakeToOrder(String orderId);
@@ -31,4 +32,5 @@ public interface PancakeLab {
     List<OrderDTO> getActiveOrders();
 
     List<OrderDTO> getOrdersByStatus(String status);
+
 }

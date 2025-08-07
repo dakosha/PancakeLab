@@ -11,7 +11,6 @@ import java.util.Optional;
 
 /**
  * Demo class to demonstrate the Pancake Lab system functionality.
- * This class shows how Disciples, Chefs, and Delivery staff interact with the system.
  */
 public class PancakeLabDemo {
     
